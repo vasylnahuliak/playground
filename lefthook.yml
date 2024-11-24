@@ -14,4 +14,4 @@ pre-commit:
       stage_fixed: true
     check-typescript:
       glob: "*.{ts,tsx}"
-      run: tsc --noEmit
+      run: npx tsc --noEmit
